@@ -1,6 +1,7 @@
 def add(a, b):
-    if a < 1 or b <1 :
-    return 1
+    if a < 0 or b <0 :
+    return 0
     return a + b
 
 print(add(2,3))
+print("hello word")
